@@ -1,0 +1,114 @@
+.container{
+    width:900px;
+    height:850px;
+    
+    border: 1px solid rgb(223, 118, 25);
+}
+header{
+    width:900px;
+    height:100px;
+    border-bottom: 2px solid orange;
+}
+.picture{
+    text-align: right;
+    padding: 20px;
+}
+nav{
+    font-size:17px;
+}
+.menu1{
+    background-image: url('../img/back.jpg');
+    float:left;
+    width:21%;
+    height: 698px;
+}
+.menu1 ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.menu1 ul li{
+    padding: 9px;
+    margin-left: 5px;
+    border-bottom: 1px dashed red;
+    width: 130px;
+    color: rgb(169, 24, 123);
+}
+.menu1 ul li a{
+    text-decoration: none;
+    color: rgb(169, 24, 123);
+}
+.menu2{
+    float:right;
+    width:75%;
+    height: 1000px;
+    
+    
+}
+.menu2 h2{
+    color:orange
+}
+.picture1{
+    background-image: url('../img/sample.jpg');
+    height:600px;
+    width:470px;
+}
+.khung1{
+    border: 1px solid orange;
+    height:170px;
+    width:150px;
+    position: absolute; 
+    top: 150px;   
+    left: 620px;
+    background-color: rgb(250, 238, 223);
+    padding: 5px;
+    font-size: 14px;
+    color: brown;
+    border-top: 4px solid rgb(81, 81, 81);
+    border-left: 4px solid rgb(81, 81, 81);
+    border-bottom: 4px solid rgb(207, 202, 202);
+    border-right: 4px solid rgb(207, 202, 202);
+}
+.khung2{
+    border: 1px solid orange;
+    height:100px;
+    width:190px;
+    font-size: 14px;
+    position: absolute; 
+    top: 430px;   
+    left: 170px;
+    background-color: rgb(250, 238, 223);
+    padding: 3px;
+    color: brown;
+    border-top: 4px solid rgb(81, 81, 81);
+    border-left: 4px solid rgb(81, 81, 81);
+    border-bottom: 4px solid rgb(207, 202, 202);
+    border-right: 4px solid rgb(207, 202, 202);
+}
+.khung3{
+    border: 1px solid orange;
+    height:115px;
+    width:160px;
+    font-size: 14px;;
+    position: absolute; 
+    top: 590px;   
+    left: 610px;
+    background-color: rgb(250, 238, 223);
+    padding: 5px;
+    color: brown;
+    border-top: 4px solid rgb(81, 81, 81);
+    border-left: 4px solid rgb(81, 81, 81);
+    border-bottom: 4px solid rgb(207, 202, 202);
+    border-right: 4px solid rgb(207, 202, 202);
+}
+.footer{
+    clear: both;
+    border-top: 2px solid orange;
+    margin-top: 30px;
+    
+}
+.footer p{
+    padding: 0px;
+    color: orange;
+    font-size: 17px;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.Top{
+    font-size: 40px;
+    color:rgb(122, 5, 5);
+    text-align: center;
+    text-shadow: 10px 18px 8px rgb(141, 6, 6); 
+      
+
+}
+#Starters h1{
+    margin-top: 0px;
+    color:rgb(122, 5, 5);
+    background-color: rgb(219, 232, 124);
+}
+#Starters ul li:nth-child(3){
+    text-transform: uppercase;
+    color:orange
+}
+#Desserts h1{
+    color:rgb(122, 5, 5);
+    background-color: rgb(219, 232, 124);
+}
+.menu{
+    border: 1px solid black;
+    margin-top: 0px;
+    background-color:rgb(209, 104, 104);
+}
+.menu a{
+    color:blue;
+    color:white ;
+    text-decoration: none;
+}
+#go{
+    
+}
+a{
+    color:red;
+    text-align: center;
+    border: 1px solid;
+    transition: all 0.5s ease-out;
+}
+
+

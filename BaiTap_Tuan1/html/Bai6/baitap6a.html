@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @font-face {
+        font-family: "KGNoRegretsSolid";
+        src: url("./font/KGNoRegretsSolid.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+      input {
+        border: 2px solid rgb(0, 0, 0, 0.3);
+      }
+      input:focus {
+        outline: 2px solid rgb(0, 0, 0, 0.3);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        width: 55%;
+        max-width: 1480px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .form_group {
+        width: 730px;
+        background-color: #99cdfd;
+      }
+      .title_form {
+        display: block;
+        margin: auto;
+        width: 320px;
+        border-radius: 16px;
+        background-color: #00feff;
+        box-shadow: 7px 7px rgb(146, 166, 190);
+        text-align: center;
+        border: 2px solid #333;
+        margin-top: 5px;
+      }
+
+      .img_form {
+        position: relative;
+      }
+      .img_form figure {
+        width: 60px;
+        margin-right: 60px;
+      }
+      .title_form--logo {
+        position: absolute;
+        left: 20px;
+      }
+      .img_form figure img {
+        width: 100%;
+        object-fit: cover;
+      }
+      .heading_form {
+        font-family: "KGNoRegretsSolid";
+        font-size: 30px;
+        font-weight: 500;
+      }
+      .border_bottom--heading {
+        border-bottom: 4px solid #333;
+      }
+      .form_group--input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      h2 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        font-family: "KGNoRegretsSolid";
+      }
+      h2 ~ p {
+        display: flex;
+        justify-content: center;
+        font-family: "KGNoRegretsSolid";
+        margin-bottom: 5px;
+      }
+
+      .form_group--setup {
+        width: 100%;
+        padding: 0px 60px;
+      }
+      .form_group--child {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #7ea5c1;
+        margin-bottom: 19px;
+      }
+      .form_group--input {
+        width: 100%;
+        display: flex;
+        gap: 95px;
+        height: 25px;
+      }
+      .form_group--input-sc {
+        height: 70px;
+      }
+      .form_group--input-sc.last {
+        height: 40px;
+      }
+
+      .form_group--input-sc
+        > .form_group--input-right
+        .form_group--input-right-check {
+        gap: 80px;
+      }
+      .form_group--input-sc .form_group--input-right {
+        height: 70px;
+      }
+      .form_group--input-sc.last .form_group--input-right {
+        height: 40px;
+      }
+      .form_group--input > label {
+        width: 130px;
+      }
+      .form_group--input > input {
+        width: 200px;
+      }
+
+      .form_group--input-right {
+        gap: 10px;
+        display: flex;
+        flex: 1;
+        height: 25px;
+      }
+      .form_group--input-right > div {
+        display: flex;
+        gap: 5px;
+        height: 25px;
+      }
+
+      input[type="radio"] {
+        position: relative;
+        appearance: none;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #0e6b7b;
+        border-radius: 50%;
+        outline: none;
+        cursor: pointer;
+        transition: 0.3s;
+        background-color: #fff;
+      }
+
+      input[type="radio"]:checked::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 5px;
+        height: 5px;
+        background-color: #4caf50;
+        border-radius: 50%;
+        top: 2.2px;
+        left: 3.2px;
+        transform: translateX(-0.5px);
+      }
+      label {
+        font-family: "KGNoRegretsSolid";
+        white-space: nowrap;
+        font-weight: 500;
+      }
+
+      .form_group--child.rest {
+        border: none;
+        height: 90px;
+      }
+      .form_action--btn {
+        display: flex;
+        gap: 10px;
+        padding-bottom: 7px;
+        padding-top: 2.5px;
+      }
+      .form_action--btn button {
+        padding: 2px 10px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form_group">
+        <div class="title_form">
+          <div class="img_form">
+            <figure class="title_form--logo">
+              <img src="../../images/logonot.png" alt="logonot" />
+            </figure>
+            <p class="heading_form border_bottom--heading">Jackson</p>
+          </div>
+          <p class="heading_form">Electronics</p>
+        </div>
+        <h2 style="font-weight: 400">Registration Form</h2>
+        <p style="padding-bottom: 10px">
+          Register your Jackson Electronics product here
+        </p>
+        <div class="form_group--input-group">
+          <div class="form_group--setup">
+            <div class="form_group--child">
+              <div class="form_group--input">
+                <label for="">First Name:</label>
+                <div class="form_group--input-right">
+                  <input style="width: 150px" type="text" name="" id="" />
+                  <div>
+                    <label for="">Last Name:</label>
+                    <input style="width: 130px" type="text" name="" id="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form_group--input">
+                <label for="">Address #1:</label>
+
+                <input type="text" name="" id="" />
+              </div>
+
+              <div class="form_group--input">
+                <label for="">Address #2:</label>
+
+                <input type="text" name="" id="" />
+              </div>
+
+              <div class="form_group--input">
+                <label for="">City:</label>
+                <div class="form_group--input-right">
+                  <input type="text" name="" id="" />
+                  <div>
+                    <div>
+                      <label for="">State:</label>
+                      <input
+                        style="width: 40px; height: 25px"
+                        type="text"
+                        name=""
+                        id=""
+                      />
+                    </div>
+
+                    <div>
+                      <label for="">Zip:</label>
+                      <input
+                        style="width: 85px; height: 25px"
+                        type="text"
+                        name=""
+                        id=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form_group--input">
+                <label for="">Country:</label>
+                <div class="form_group--input-right">
+                  <input type="text" name="" id="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form_group--input-group">
+          <div class="form_group--setup">
+            <div class="form_group--child">
+              <div class="form_group--input">
+                <label for="">Product:</label>
+                <div class="form_group--input-right">
+                  <select style="width: 150px">
+                    <option value="">ScanMaster</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form_group--input">
+                <label for="">Date Purchased:</label>
+                <input type="text" name="" id="" />
+              </div>
+
+              <div class="form_group--input">
+                <label for="">Serial#:</label>
+
+                <input type="text" name="" id="" />
+              </div>
+
+              <div class="form_group--input form_group--input-sc">
+                <label for="">Used for:</label>
+                <div class="form_group--input-right">
+                  <div class="form_group--input-right-check">
+                    <!-- fsr -->
+                    <div>
+                      <div>
+                        <label>
+                          <input
+                            type="radio"
+                            name="organizationType"
+                            value="Home"
+                          />
+                          Home
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input
+                            type="radio"
+                            name="organizationType"
+                            value="Home"
+                            checked
+                          />
+                          Business
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input
+                            type="radio"
+                            name="organizationType"
+                            value="Home"
+                          />
+                          Govemment
+                        </label>
+                      </div>
+                    </div>
+
+                    <!-- sc -->
+                    <div>
+                      <div>
+                        <label>
+                          <input
+                            type="radio"
+                            name="organizationType"
+                            value="Home"
+                          />
+                          Education Institution
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input
+                            type="radio"
+                            name="organizationType"
+                            value="Home"
+                          />
+                          Other
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form_group--input form_group--input-sc last">
+                <label for="">System (check all that apply):</label>
+                <div class="form_group--input-right">
+                  <div class="form_group--input-right-check">
+                    <!-- fsr -->
+                    <div>
+                      <div>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="organizationType"
+                            value="Home"
+                          />
+                          Windows
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="organizationType"
+                            value="Home"
+                          />
+                          Macintosh
+                        </label>
+                      </div>
+                    </div>
+
+                    <!-- sc -->
+                    <div>
+                      <div>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="organizationType"
+                            value="Home"
+                          />
+                          UNIX
+                        </label>
+                      </div>
+                      <div>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="organizationType"
+                            value="Home"
+                          />
+                          Other
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form_group--input-group" ">
+        <div class="form_group--setup">
+          <div class="form_group--child rest">
+            <div class="form_group--input">
+              <label for="">Comments</label>
+              <div class="form_group--input-right">
+                <input
+                  style="width: 100%; padding-bottom: 90px; padding-top: 10px"
+                  name=""
+                  id=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form_action--btn">
+          <button><span>Click to register</span></button
+          ><button><span>Click to cancel</span></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    background-image: url('../img/background.jpg');
+    color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    width:1098;
+    height:1000px;
+}
+#link{
+    float:left;
+    width:25%;
+    height:900px;
+    border-right: 2px solid green ;
+    
+}
+#link ul{
+    background-color: rgb(235, 239, 237);
+    padding: 0px;
+    width:180px;
+    border-right: 4px solid rgb(141, 142, 141) ;
+    border-bottom: 4px solid rgb(141, 142, 141) ;
+}
+#link ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    
+    
+}
+#link ul li a{
+    text-decoration: none;
+    color:rgb(221, 89, 197);
+}
+#noidung{
+    width:74%;
+    height:70%;
+    float:left;
+}
+.main{
+    padding-left: 20px;
+}
+.main h2{
+    background-color: green;
+    width:550px
+}
+.picture img{
+    float:right;
+    padding: 10px;
+    height:300px;
+    
+}
+.main2 h3{
+    background-color: green;
+    width:300px;
+    margin-left: 20px;
+    
+}
+footer{
+    border-top: 2px solid green;
+    clear: both;
+    height:50px;
+    text-align: center;
+}
+
+
+
+
+

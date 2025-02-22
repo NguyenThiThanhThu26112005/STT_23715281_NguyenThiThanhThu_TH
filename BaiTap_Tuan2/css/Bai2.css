@@ -1,0 +1,104 @@
+
+.container{
+    width: auto;
+    height: 800px;
+    margin: 10px;
+    flex:1;
+}
+.title{
+    background-image: url("../img/background.png");
+    height: 100px;
+    color:aliceblue;
+    padding: 20px;
+}
+.title img{
+    height: 120px;
+    width: 100px;
+    float:left;
+}
+.title h1,h3{
+    line-height: 0.3;
+}
+nav{
+    background-color: gray;
+    padding: 10px;
+    gap:10px;
+    align-items: center;
+
+}
+.home a{
+    text-decoration: none;
+    color:aliceblue;
+    padding: 15px;
+}
+.home a:nth-child(1){
+    color:black
+}
+
+section{
+    float: left;
+    width: 70%;
+    height:550px;
+}
+.acticle{
+    height:250px;
+}
+.picture{
+    border: 1px solid gray;
+    float:left;
+    margin: 20px;
+}
+.picture img{
+    width:200px;
+    height:130px;
+    margin: 10px
+}
+.picture p{
+    margin-left: 10px;
+    margin-top:0px;
+}
+.acticle h2{
+    padding-top:30px ;
+}
+.acticle h4{
+    color:rgb(233, 106, 106)
+}
+.acticle h2,h4{
+    line-height: 0.2;
+}
+aside{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 29%;
+    height:550px;
+    border-left: 1px solid gray;
+    
+}
+aside h2{
+    padding: 20px;
+    color:rgb(233, 106, 106)
+}
+aside ul li{
+    list-style: none;
+    padding: 5px;
+
+}
+aside .popular ul li{
+    color:rgb(233, 106, 106);
+}
+hr{
+    width:250px;
+    margin-left:5px;
+    
+}
+footer{
+    clear: both;
+    height:50px;
+    background-color: grey;
+    color: aliceblue;
+    
+}
+footer p{
+    padding: 20px;
+}
