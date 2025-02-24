@@ -1,0 +1,129 @@
+.container{
+    width:1000px;
+    height:800px;
+}
+header{
+    width:1000px;
+    height:80px;
+}
+.title{
+    
+    height:55px;
+    background-color: #9e4011;
+}
+.title h1{
+    color: rgb(168, 168, 15);
+    text-shadow: -4px -2px 5px white ;
+    padding: 5px;
+}
+.menu a{
+    text-decoration: none;
+    color:#9e4011;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav{
+    height:645px;
+    width:1000px;
+}
+.picture img{
+    width:1000px;
+}
+.section{
+    float:left;
+    width:65%;
+    height: 500px;
+    border-right: 1px solid rgb(237, 143, 36);
+}
+.section h2{
+    padding: 20px;
+    letter-spacing: 1.5px;
+    color: #81330d;
+}
+.section p{
+    padding-left: 60px;
+    padding-right: 70px;
+    text-align: justify;
+    color: #af8207;
+    font-style:italic ;
+    word-spacing: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section form{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.section form input{
+    width:500px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.section form input:nth-child(9){
+    width: 130px;
+    height:30px;
+    background-color: rgb(35, 78, 38);
+    color: azure;
+}
+.aside{
+    float:right;
+    width: 34%;
+    height: 500px;
+}
+.aside .link{
+    margin: 20px;
+    margin-top: 50px;
+    padding-left: 20px;
+    background-color: rgb(247, 213, 162);
+    border-radius: 20px;
+}
+.aside .link h2{
+    color:#9e4011;
+    letter-spacing: 1.5px;
+}
+.aside .link ul{
+    list-style-type:square ;
+}
+.aside .link ul li{
+    padding-bottom: 5px;
+}
+.aside .info{
+    margin: 20px;
+    margin-top: 50px;
+    padding-left: 20px;
+    
+}
+.aside .info h2{
+    letter-spacing: 1.5px;
+}
+.aside .info .picture1{
+    height: 100px;
+    width:160px;
+    border: 1px solid rgb(211, 132, 20);
+    float: left;
+    margin-right: 20px;
+}
+.aside .info .picture1 img{
+    height: 60px;
+    width:120px;
+    padding: 20px;
+    
+}
+.aside .info p{
+    word-spacing: 6px;
+}
+footer{
+    clear: both;
+    height:73px;
+    background-image: url('../img/vien_la.png');
+    background-size: 1000px 73px;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+

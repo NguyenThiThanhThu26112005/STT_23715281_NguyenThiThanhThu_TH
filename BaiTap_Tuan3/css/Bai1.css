@@ -1,0 +1,151 @@
+.container{
+    height: 670px;
+    width:1089px;
+    background-color: rgb(151, 208, 248);
+    color:azure;
+    
+
+}
+header{
+    height:70px;
+    width:1089px;
+    border-bottom: 4px  dotted white;
+}
+.menu{
+    float:left;
+    width:75%;
+    height: 69px;
+    
+}
+.menu a{
+    text-decoration: none;
+    color:azure;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 20px;
+    
+    
+}
+.title{
+    float:right;
+    width:24%;
+    height: 69px;
+}
+h1{
+    padding-right:10px ;
+    text-align: right;
+    text-shadow:3px 3px 10px rgb(59, 59, 238),
+                -3px -3px 10px rgb(59, 59, 238),
+                3px -3px 10px rgb(59, 59, 238),
+                -3px 3px 10px rgb(59, 59, 238);
+}
+
+nav{
+    height:510px;
+}
+.section{
+    width: 50%;
+    height:500px;
+    float:left;
+    padding: 10px;
+}
+.section form{
+    width:450px;
+    margin-left: 70px;
+}
+.section form select{
+    margin-left: 120px;
+    border-radius:5px;
+    margin-bottom:10px ;
+}
+.section form input:nth-child(3){
+    width:250px;
+    margin-left: 78px;
+    border-radius:5px;
+    margin-bottom:10px ;
+}
+.section form input:nth-child(5){
+    width:250px;
+    margin-left: 43px;
+    border-radius:5px;
+    margin-bottom:10px ;
+}
+.section form input:nth-child(7){
+    width:250px;
+    margin-left: 121px;
+    border-radius:5px;
+    margin-bottom:10px ;
+}
+.section form input:nth-child(9){
+    width:250px;
+    margin-left: 98px;
+    border-radius:5px;
+    margin-bottom:10px ;
+}
+.section form label{
+    display: flex;
+    align-items: center;
+    width:150px;
+    float:left
+
+}
+.section form textarea{
+    margin-left: 4px;
+    border-radius:5px;
+    margin-bottom:10px ;
+    width: 250px;
+    height:70px;
+}
+.section form input:nth-child(14){
+        margin-left: 154px;
+        border-radius:5px;
+        margin-bottom:10px ;
+        border: 2px dotted black;
+}
+.section form input:nth-child(15){
+    border-radius:5px;
+    margin-bottom:10px ;
+    border: 2px dotted black;
+}
+.aside{
+    width:48%;
+    height:520px;
+    float:right;
+}
+.aside .picture img{
+    height:320px;
+    width:450px;
+    padding-top: 40px;
+    margin-left: 10px;
+}
+.aside .word{
+    padding-left: 40px;
+    color:blue;
+    font-family:'Times New Roman', Times, serif;
+}
+.word h3{
+    line-height: 0.1;
+}
+.word p{
+    line-height: 0.1;
+}
+.aside .word h3{
+    text-shadow: 1px 2px 1px blue;
+    font-size: 34px;
+}
+.aside .word p{
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.footer{
+    clear: both;
+    height:70px;
+    border-top: 4px dotted white;
+    text-align: center;
+}
+.footer p{
+    line-height: 0.5;
+    font-weight: bold;
+}

@@ -1,0 +1,213 @@
+.container{
+    width:1089px;
+    height:700px;
+}
+header{
+    height: 100px;
+    width:1089px ;
+    background-image: url(../img/Backround.jpg.png);
+}
+.title{
+    float:left;
+    width:35%;
+    height: 100px;
+    color:white;
+
+}
+.title h1{
+    padding-top: 10px;
+    line-height: 0.1;
+}
+#so3{
+    position: relative;
+    top:6px;
+}
+#so6{
+    position: relative;
+    top:-1px;
+}
+#soO{
+    font-size: 22px;
+    position: relative;
+    top:-1px;
+}
+.title .picture img{
+    height:90px;
+    padding: 5px;
+}
+.menu{
+    float:right;
+    width:65%;
+    height: 100px;
+    text-align: right;
+}
+.search{
+    padding: 15px;
+}
+.search input{
+    background-color: rgb(5, 5, 111);
+    color:white;
+}
+.search button{
+    background-color: rgb(5, 5, 111);
+    color:white;
+}
+.chooce{
+    height: 49px;
+}
+.chooce a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(37, 37, 226);
+
+}
+.chooce a:nth-child(5)
+{
+    
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.chooce a:nth-child(4)
+{
+    
+    padding: 10px;
+    margin-left: 40px;
+}
+.chooce a:nth-child(3)
+{
+    
+    padding: 10px;
+    margin-left: 40px;
+}
+.chooce a:nth-child(2)
+{
+    padding: 10px;
+    margin-left: 40px;
+}
+.chooce a:nth-child(1)
+{
+    padding: 10px;
+    margin-left: 40px;
+}
+nav{
+    
+    height:540px;
+}
+.section{
+    float:left;
+    width:70%;
+    height: 540px;
+}
+.section h2{
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+.section1{
+    float:left;
+    width:60%;
+    height: 400px;
+    
+    padding-left: 10px;
+
+}
+.section1 p{
+    text-align: justify;
+    color: red;
+    letter-spacing: 1px;
+    text-shadow: 3px 4px 4px rgb(5, 86, 5);
+}
+.section1 form input{
+    width:190px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section form label:nth-child(2)
+{
+    padding-left: 175px;
+}
+.section form label:nth-child(8)
+{
+    padding-left: 145px;
+}
+.section1 form textarea{
+    height: 70px;
+    width:415px;
+    margin-top: 10px;
+}
+.section1 form input:nth-child(17)
+{
+    width:70px;
+}
+.section1 form input:nth-child(18)
+{
+    width:70px;
+}
+.section2{
+    float:right;
+    width:37%;
+    margin: 0px;
+}
+.section2 h3{
+    margin-top: 0px;
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+.section2 ul{
+    list-style: none;
+    padding-left:20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.section2 p{
+    padding-left:20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+
+}
+.aside{
+    float:right;
+    width:30%;
+    height: 430px;
+    margin-top: 40px;
+    background-color: rgb(235, 233, 232);
+}
+
+.aside h2{
+    margin: 30px;
+    padding-bottom:30px ;
+    border-bottom: 1px dashed black;
+}
+.picture2{
+    border: 1px solid black;
+    height:100px;
+    width:265px;
+    margin: 30px; 
+}
+.aside .picture2 img{
+    height:90px;
+    width:255px;
+    padding: 5px; 
+    
+}
+.aside p{
+    text-align: justify;
+    margin: 30px;
+}
+.aside a{
+    margin-left: 200px;
+    text-decoration: none;
+}
+footer{
+    clear: both;
+    height: 50px;
+    padding: 5px;
+    background-image: url(../img/Backround.jpg.png);
+}
+.footer{
+    color:white;
+}
