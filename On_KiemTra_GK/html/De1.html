@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De 1</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            
+            width:960px;
+            font-family: 'Times New Roman', Times, serif;
+            border: 1px solid black;
+            
+        }
+        .header{
+            height:100px;
+            display: flex;
+            background-color: rgb(236, 179, 151);
+        }
+        .header img{
+            padding:7px;
+        }
+        .title{
+            width: 480px;
+            padding:15px;
+        }
+        .title p{
+            color:blue
+        }
+        .title h2{
+            color: red;
+        }
+        .find{
+            width: 400px;
+            display: block;
+            text-align: right;
+            padding:10px;
+        }
+        
+        .datetime a{
+            text-decoration: none;
+            color: black;
+        }
+        .datetime a:hover{
+            color: brown;
+        }
+        .search input{
+            margin: 10px;
+            padding: 5px;
+        }
+        nav{
+            height:40px;
+        }
+        .menu{
+            background-color: rgb(222, 131, 21);
+        }
+        ul{
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            list-style-type:none;
+        }
+        
+        li a:hover{
+            color: rgb(247, 30, 10);
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        .link{
+            height:40px;
+        }
+        .link ul{
+            padding: 10px;
+            display: flex;
+            justify-content:left;
+        }
+        .link a{
+            color: black;
+        }  
+        .content{
+            height:600px;
+        }
+        section{
+            float:left;
+            width:65%;
+        }
+        .form{
+            
+            padding: 20px;
+            background-color: bisque;
+        }
+        .form legend{
+            color:rgb(202, 8, 8);
+        }
+        .form div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .form label {
+            width: 150px;
+            text-align: left;
+            padding-right: 10px;
+        }
+
+        .form input, 
+        .form select {
+            flex: 1;
+            padding: 5px;
+        }
+        .info{
+            padding: 10px;;
+        }
+        .info h4{
+            border: 1px solid black;
+            padding: 5px;
+            background-color: rgb(250, 238, 223);
+        }
+        .para{
+            display:flex;
+            padding: 5px;
+        }
+        .para .para1{
+            width:70%;
+            border-right: 1px solid black;
+        }
+        .para .para_date{
+            padding: 5px;;
+        }
+        aside{
+            float:left;
+            width:33%;
+            margin-left: 10px;
+        }
+        aside h4{
+            border-bottom: 1px solid black;
+            padding: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        aside ul{
+            display: block;
+        }
+        aside li{
+            border-bottom: 1px solid black;
+            padding: 10px;
+        }
+        aside ul li a{
+            color:black;
+        }
+        .footer{
+            background-color: rgb(240, 61, 12);
+            display: flex;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="../img/logo.jpg" alt="anh1" width="80" height="80" >
+            <div class="title">
+                <p>Trang thông tin điện tử</p>
+                <h2>PHỔ BIẾN, GIÁO DỤC PHÁP LUẬT</h2>
+            </div>
+            <div class="find">
+                <div class="datetime">
+                    <span>Thứ ba, 7 tháng 3 năm 2023 |</span>
+                    <a href="#"> Gui cau hoi |</a>
+                    <a href="#">Lien he</a>
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Tim kiem ">
+                    
+                </div>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="../html/De1.html"> <img src="../img/Home_icon_black.png" alt="anh3" width="40px"></a></li>
+                <li><a href="#">CỔNG TTDT BỘ CÔNG AN</a></li>
+                <li><a href="#">TIN TỨC</a></li>
+                <li><a href="#">GIỚI THIỆU VĂN BẢN</a></li>
+                <li><a href="#">VĂN BẢN</a></li>
+                <li><a href="#">DỰ THẢO</a></li>
+                <li><a href="#">HỎI ĐÁP PHÁP LUẬT</a></li>
+            </ul>
+        </nav>
+        <div class="link">
+            <ul>
+                <li><a href="#">Trang chủ > </a></li>
+                <li><a href="#">Phổ biến, giáo dục pháp luật > </a></li>
+                <li><a href="#">Văn bản</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <section class="section">
+                
+                <form class="form">
+                    <legend>TÌM KIẾM VĂN BẢN</legend>
+                    <div>
+                        <label for="key">Từ khóa</label>
+                        <input type="text" id="key" placeholder="Từ khóa tìm kiếm">
+                    </div>
+                    <div>
+                        <label for="loai">Chọn loại văn bản</label>
+                        <select id="loai">
+                            <option value="">Chọn loại văn bản</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="coquan">Cơ quan ban hành</label>
+                        <select id="coquan">
+                            <option value="">Chọn cơ quan ban hành</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="date">Ngày ban hành</label>
+                        <input type="date" id="date">
+                        <input type="date" id="date2">
+                    </div>
+                    <div style="text-align: center;">
+                        <input type="submit" value="Tìm kiếm">
+                    </div>
+                </form>
+                
+                <div class="info">
+                    <h4>Thông tư 67/2022/TT-BCA</h4>
+                    <div class="para">
+                        <p class="para1">Thông tư sửa đổi, bổ sung một số điều của Thông tư số 46/2014/TT-BCA ngày 16/10/2014 của Bộ trưởng Bộ công an quy định chi tiết thi hành một số điều của Nghị định số 06/2013/ND-CP ngày 09/01/2013 của chính phu quy định về bảo vệ cơ quan, doanh nghiệp.</p>
+                        <div class="para_date">
+                            <p>Ngày ban hành:
+                                30/12/2022</p>
+                            <p>Ngày hiệu lực: 15/02/2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <h4>Thông tư 67/2022/TT-BCA</h4>
+                    <div class="para">
+                        <p class="para1">Thông tư sửa đổi, bổ sung một số điều của Thông tư số 46/2014/TT-BCA ngày 16/10/2014 của Bộ trưởng Bộ công an quy định chi tiết thi hành một số điều của Nghị định số 06/2013/ND-CP ngày 09/01/2013 của chính phu quy định về bảo vệ cơ quan, doanh nghiệp.</p>
+                        <div class="para_date">
+                            <p>Ngày ban hành: 30/12/2022</p>
+                            <p>Ngày hiệu lực: 15/02/2023</p>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </section>
+            <aside class="aside">
+                <h4>DỰ THẢO VĂN BẢN ĐANG LẤY Ý KIẾN</h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <h5>Ngày hết hạn: 21/04/2023</h5>
+                            <p>Dự thảo Quyết định về tín dụng đối với người chấp hành xong án phạt tù</p>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h5>Ngày hết hạn: 21/04/2023</h5>
+                            <p>Dự thảo Quyết định về tín dụng đối với người chấp hành xong án phạt tù</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h5>Ngày hết hạn: 21/04/2023</h5>
+                            <p>Dự thảo Quyết định về tín dụng đối với người chấp hành xong án phạt tù</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="picture">
+                    <a href="#"><img src="../img/Anh1.png" alt="" width="100%"></a>
+                    <a href="#"><img src="../img/Anh1.png" alt="" width="100%"></a>
+                    <a href="#"><img src="../img/Anh1.png" alt=""width="100%"></a>
+                </div>
+            </aside>
+        </div>
+        <footer class="footer">
+            <img src="../img/Huy_hieu.png" alt="anh1" width="120" >
+            <div class="dress">
+                <p>CỔNG TTDT BỘ CÔNG AN - TRANG THÔNG TIN ĐIỆN TỬ PHỔ BIẾN, GIÁO DỤC PHÁP LUẬT</p>
+                <p>Địa chỉ: 44 - Yết Kiêu - Hoàn Kiếm - Hà Nội</p>
+                <p>Điện thoại: 034524454354034524454354</p>
+            </div>
+            <div class="student">
+                <p>MSSV: 23715281</p>
+                <p>Họ và tên: Nguyễn Thị Thanh Thư</p>
+                <p>Lớp: DHKHMT19A</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

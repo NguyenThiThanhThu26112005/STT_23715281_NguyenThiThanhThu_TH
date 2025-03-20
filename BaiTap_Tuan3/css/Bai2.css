@@ -6,10 +6,10 @@ header{
     height: 100px;
     width:1089px ;
     background-image: url(../img/Backround.jpg.png);
+    position: relative;
 }
 .title{
-    float:left;
-    width:35%;
+    background-color: rgb(19, 120, 120);
     height: 100px;
     color:white;
 
@@ -36,17 +36,18 @@ header{
     padding: 5px;
 }
 .menu{
-    float:right;
-    width:65%;
+    position:absolute;
+    right:10px;
+    top:10px;
     height: 100px;
-    text-align: right;
-}
-.search{
-    padding: 15px;
 }
 .search input{
     background-color: rgb(5, 5, 111);
     color:white;
+    
+}
+.search{
+    text-align: right;
 }
 .search button{
     background-color: rgb(5, 5, 111);
@@ -55,14 +56,27 @@ header{
 .chooce{
     height: 49px;
 }
-.chooce a{
-    text-decoration: none;
-    color: white;
-    display: inline-block;
+.chooce ul{
+    list-style-type: none;
+    display: flex;;
+    
+}
+.chooce ul li{
     margin-top: 10px;
     background-color: rgb(37, 37, 226);
+    padding: 10px;
+    margin-right: 5px;
+    text-align: center;
 
 }
+.chooce ul li:hover{
+    background-color: rgb(106, 106, 242);
+}
+.chooce ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 .chooce a:nth-child(5)
 {
     

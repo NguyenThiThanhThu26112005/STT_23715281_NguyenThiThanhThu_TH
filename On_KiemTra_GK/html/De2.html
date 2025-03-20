@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De 2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100hv;
+            height:auto;
+        }
+        header{
+            height:200px;
+            background-image: url("../img/Anh_cay1.png");
+            background-size: cover;
+        }
+        header h1{
+            height:150px;
+            text-align: center;
+            padding-top: 50px;
+            color:white;
+            text-shadow: 2px 2px 2px white;
+        }
+        .nav{
+            height:50px;
+            display: flex;
+            background-color: rgb(37, 152, 77);
+            justify-content:space-evenly;
+        }
+        .menu{
+            display:flex;
+            justify-content:space-between;
+            list-style-type: none;
+        }
+        .menu li{
+            padding: 15px;
+            margin: 4px;
+            margin-left: 40px;
+            border-radius: 7px;
+            background-color:rgb(7, 98, 36);
+        }
+        .menu li:hover{
+            background-color: rgb(224, 224, 62);
+        }
+        .menu li a:hover{
+            color:red;
+            text-transform: uppercase;
+        }
+        nav a{
+            text-decoration: none;
+            color:azure
+        }
+        .DV{
+            display: none;
+        }
+
+        .search{
+            padding: 10px;
+        }
+        .search input, button{
+            height: 30px;
+            border-radius: 5px;
+        }
+        .content{
+            display: flex;
+        }
+        .left{
+            width:60%;
+            
+            background-color: rgb(169, 242, 234);
+        }
+        .intro{
+            padding: 20px;
+        }
+        .intro h2{
+            color:red;
+        }
+        .intro p{
+            margin: 15px;
+            padding: 10px;
+            border: 1px solid black;
+            background-color: azure;
+            border-radius: 20px;
+            font-style: italic;
+            box-shadow: 15px 15px 10px gray,
+                        -2px -3px 5px gray;
+        }
+        .picture{
+            display: flex;
+            padding: 0px;
+            margin: 0px;
+        }
+        .info{
+            padding-left: 20px;;
+        }
+        .info ul{
+            list-style-type:none;
+        }
+        .info ul li::before{
+            content: "- ";
+        }
+        .right{
+            width:40%;
+            padding: 30px;
+            background-image: url("../img/Anh_cay2.png");
+            background-size: cover;
+        }
+        form{
+            padding: 20px;
+            padding-right: 40px;
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        form legend h2{
+            color: black;
+            text-shadow: 1px 1px 2px rgb(229, 19, 19);
+        }
+        .form-group,.form-group1{
+            display: flex;
+            align-items: center;
+        }
+        .form-group label{
+            width:100px
+        }
+        .form-group input,label,select{
+            margin-bottom: 10px;
+            border-radius: 5px;
+            width: 100%;
+            padding: 5px;
+
+        }
+        .form-group textarea{
+            width: 100%;
+            border-radius: 5px;
+        }
+        form input{
+            margin-right: 0px ;
+        }
+        .form-group input[type="submit"]{
+            padding-left: 10px;
+            margin-right: 10px;
+            background-color: royalblue;
+        }
+        .form-group input[type="reset"]{
+            padding-left: 10px;
+            margin-left: 10px;
+            background-color: rgb(229, 19, 19);
+        }
+        .form-group input[type="submit"]:hover,input[type="reset"]:hover{
+            background-color: rgb(19, 229, 33);
+        }
+        footer{
+            text-align: center;
+            font-style: italic;
+            background-color: rgb(37, 152, 77);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Du lịch bốn mùa</h1>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Tim Tour</a></li>
+                    <li class="Dv1">
+                        <a href="#" class="Dv2">Dịch vụ</a>
+                        <ul class="DV">
+                            <li><a href="#">Đặt phòng</a></li>
+                            <li><a href="#">Đặt vé máy bay</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+                <div class="search">
+                    <input type="text">
+                    <button>search</button>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <section class="left">
+                <div class="intro">
+                    <h2>Giới thiệu</h2>
+                    <p>
+                        Vietravel - Nhà tổ chức du lịch chuyên nghiệp. Website travel.com.vn tự hào là nền tảng bán tour du lịch trực tuyến hàng đầu Việt Nam, với hơn 1.000 tour.
+                        Vietravel Channel sẽ mang đến cho quý khán giả những thông tin bổ ích, thiết thực. Nội dung phong phú, hình thức thể hiện mới mẻ, hiện đại, phù hợp với cả đối tượng khó tính nhất.
+                    </p>
+                </div>
+                <div class="picture">
+                    <img src="../img/anh-cay-xanh-18.jpg" alt="" width="150px" height='100px'  >
+                    <div class="info">
+                        <h3>Tour Bali 4N3Đ: Khám phá BALI</h3>
+                        <p>Giá tour chọn gói: 9.990.000 VNĐ</p>
+                        <ul>
+                            <li>Khởi hành từ: Hồ Chí Minh</li>
+                            <li>Điểm đến: Bali</li>
+                            <li>Lịch trình: 4 ngày 3 đêm</li>
+                            <li>Phương tiện: Máy bay</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="picture">
+                    <img src="../img/anh-cay-xanh-18.jpg" alt="" width="150px" height='100px'  >
+                    <div class="info">
+                        <h3>Tour Hàn Quốc mùa thu 5N4Đ</h3>
+                        <p>Giá tour chọn gói: 16.990.000 VNĐ</p>
+                        <ul>
+                            <li>Khởi hành từ: Hồ Chí Minh</li>
+                            <li>Điểm đến: Hàn Quốc</li>
+                            <li>Lịch trình: 5 ngày 4 đêm</li>
+                            <li>Phương tiện: Máy bay</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <aside class="right">
+                <form action="" class="form">
+                    <legend><h2>Thông tin đặt tour</h2></legend>
+                    <div class="form-group">
+                        <label for="name">Họ tên:</label>
+                        <input type="text" id="name">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="phone">Điện thoại:</label>
+                        <input type="text" id="phone">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email">
+                    </div>
+                
+                    <div class="form-group">
+                        <div class="form-group1">
+                            <label for="adults">Số người lớn:</label>
+                            <input type="text" id="adults">
+                        </div>
+                        <div class="form-group1">
+                            <label for="children">Số trẻ em:</label>
+                            <input type="text" id="children">
+                        </div>
+                    </div>
+                
+                    
+                    <div class="form-group">
+                        <label for="payment">Thanh toán:</label>
+                        <select id="payment">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="special-requests">Các yêu cầu đặc biệt:</label>
+                        <textarea id="special-requests"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="submit" value="Dat Tour">
+                        <input type="reset" value="Huy Dat Tour">
+                    </div>
+                    
+                </form>
+            </aside>
+        </div>
+        <footer class="footer">
+            <p>Họ tên sinh viên: Nguyễn Thị Thanh Thư</p>
+            <p>Mã sinh viên: 23715281</p>
+            <p>Mã lớp:DHKHMT19A</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,10 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
 .container{
     width:1000px;
     height:800px;
+    border: 1px solid black;
 }
 header{
     width:1000px;
-    height:80px;
+    height:100px;
+    display: block;
 }
 .title{
     
@@ -16,15 +24,31 @@ header{
     text-shadow: -4px -2px 5px white ;
     padding: 5px;
 }
+.menu{
+    height:45px;
+}
+.menu ul{
+    list-style-type: none;
+    height:45px;
+    position:static;
+    display: flex;
+    
+}
+.menu ul li{
+    padding: 10px;
+    padding-right: 20px;
+}
+.menu li:hover{
+    background-color: rgb(220, 134, 36);
+}
 .menu a{
     text-decoration: none;
     color:#9e4011;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 nav{
     height:645px;
     width:1000px;
+    display: block;
 }
 .picture img{
     width:1000px;
@@ -107,7 +131,8 @@ nav{
 .aside .info .picture1 img{
     height: 60px;
     width:120px;
-    padding: 20px;
+    margin: 20px;
+    
     
 }
 .aside .info p{
